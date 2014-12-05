@@ -1,7 +1,7 @@
 {
   "name": "chrome-sync",
   "description": "Sync storage wrapper for Chrome",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Roy Kolak <roy.kolak@gmail.com>",
   "scripts": {
     "test": "node_modules/jasmine-node/bin/jasmine-node spec/"
