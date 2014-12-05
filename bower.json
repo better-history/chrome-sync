@@ -1,0 +1,26 @@
+{
+  "name": "chrome-sync",
+  "version": "0.0.1",
+  "homepage": "https://github.com/better-history/chrome-sync",
+  "authors": [
+    "Roy Kolak <roy.kolak@gmail.com>"
+  ],
+  "description": "Sync storage wrapper for Chrome",
+  "main": [
+    "chrome_sync.js"
+  ],
+  "keywords": [
+    "chrome",
+    "extensions",
+    "js",
+    "history",
+    "browser"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "specs"
+  ]
+}
