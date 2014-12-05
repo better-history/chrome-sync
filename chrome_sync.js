@@ -7,10 +7,15 @@
       var message = chromeAPI.runtime.lastError.message;
       // handle error
     }
-    callback(data);
+    if(typeof callback !== 'undefined') {
+      callback(data);
+    }
   };
 
   var ChromeSync = function(options) {
+    if(typeof options === 'undefined') {
+      options = {};
+    }
     chromeAPI = options.chrome || chrome;
   };
 
